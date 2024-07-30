@@ -1,0 +1,109 @@
+.navbar-brand
+{
+    font-weight: 700;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título principal */
+h1 {
+    margin-left: 30px;
+    margin-bottom: 60px;
+    color: #343a40;
+}
+
+/* Estilo subtítulo */
+h6 {
+    margin-left: 30px;
+    color: #6c757d;
+}
+
+/* Estilo para las tarjetas de cursos */
+.container
+{
+    margin-top: 40px;
+}
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: .375rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Hacer que la tarjeta ocupe todo el ancho disponible */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-top-left-radius: .375rem;
+    border-top-right-radius: .375rem;
+    object-fit: cover;
+    height: 180px; /* Ajusta la altura según tus necesidades */
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.125rem; /* Tamaño de fuente reducido */
+    margin-bottom: .75rem;
+    color: #212529;
+}
+
+.card-text {
+    font-size: 0.875rem; /* Tamaño de fuente reducido */
+    margin-bottom: 1.25rem;
+    color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Ajustes para el diseño de columnas */
+.row {
+    margin: 0 auto;
+}
+
+/* Crear una fila de 3 tarjetas en pantallas grandes */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 33.33333%; /* 3 tarjetas por fila */
+        max-width: 33.33333%;
+    }
+}
+
+/* Crear una fila de 2 tarjetas en pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        flex: 0 0 50%; /* 2 tarjetas por fila */
+        max-width: 50%;
+    }
+}
+
+/* Crear una fila de 1 tarjeta en pantallas pequeñas */
+@media (max-width: 767px) {
+    .col-12 {
+        flex: 0 0 100%; /* 1 tarjeta por fila */
+        max-width: 100%;
+    }
+}
+
+
+
+
