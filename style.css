@@ -40,6 +40,18 @@
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 
+h2{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-20%, -20%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large ;
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
 #Titulomision {
     position: absolute;
     top: 5%;
@@ -55,5 +67,17 @@
 .navbar-brand
 {
     font-weight: 700;
+}
+
+.Preguntas {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-20%, -20%);
+    color: rgb(14, 6, 6);
+    text-align: center;
+    font-size:medium;
+    font-weight:bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
