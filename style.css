@@ -69,14 +69,15 @@ h2{
     font-weight: 700;
 }
 
-.Preguntas {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    transform: translate(-20%, -20%);
-    color: rgb(14, 6, 6);
+
+
+.test {
+    text-align: center;
+    color: #52ACE1;
+} 
+
+.test2{
     text-align: center;
     font-size:medium;
-    font-weight:bolder;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
