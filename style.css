@@ -73,11 +73,53 @@ h2{
 
 .test {
     text-align: center;
-    color: #52ACE1;
+    font-weight: bolder;
+    color: #52ACE1
 } 
 
 .test2{
     text-align: center;
+    font-weight: lighter;
     font-size:medium;
+}
+
+.recursos {
+    text-align: center;
+    font-weight: bolder;
+    color: #52ACE1; 
+}
+
+.recursos1 {
+    text-align: center;
+    font-weight: lighter ;
+    font-size: medium;
+}
+
+.contacto {
+    text-align: center;
+    font-weight: bolder;
+    color: #52ACE1; 
+}
+
+.contacto2{
+    text-align: center;
+    font-weight: lighter ;
+    font-size: medium;
+}
+
+.mb-3 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.boton {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #52ACE1;
+    font-weight: lighter;
+}
+
+.form-check{
+    margin-left: 3%;
 }
 
