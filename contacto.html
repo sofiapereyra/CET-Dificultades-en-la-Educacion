@@ -50,19 +50,31 @@
     </nav>
 </header>
 <h1 class="contacto"> Contacto </h1>
-<h5 class="contacto2"> Si tenes información útil sobre cursos, recomendaciones y/o dudas, dejanos tu mensaje aca abajo!</h5>
+<h5 class="contacto2"> Si tenes información útil sobre cursos, recomendaciones y/o dudas, dejanos tu mensaje aca abajo!</h5>       
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        <label for="correo" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
       </div>
-      <form>
-        <input class= "boton" type="submit">
-      </form>
-      
+      <div class="form-floating">
+        <select class="form-select" id="selector" aria-label="Floating label select example">
+          <option selected></option>
+          <option value="1">Dudas</option>
+          <option value="2">Recomendaciones</option>
+          <option value="3">Informacion</option>
+        </select>
+        <label for="floatingSelect">Seleccione una opción</label>
+      </div>
+      <div>
+        <form>
+            <input id= "boton" type="submit">
+          </form>
+      </div>
+     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./contacto.js"></script>
 </body>
 </html>

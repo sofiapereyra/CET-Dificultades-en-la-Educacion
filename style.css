@@ -114,11 +114,74 @@ h2{
 
 .boton {
     margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    background-color: #52ACE1;
+    font-weight: lighter;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block; 
+    padding: 5px 10px; 
+    font-size: 18px
+}
+
+#boton {
+    margin-left: 3%;
+    margin-top: 2%;
     margin-right: 3%;
     background-color: #52ACE1;
     font-weight: lighter;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; 
+    padding: 5px 10px; 
+    font-size: 18px
 }
+
 
 .form-check{
     margin-left: 3%;
 }
+
+.form-floating {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.form-select {
+    color: #52ACE1;
+}
+
+
+.list-group {
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+
+.list-group-item {
+    display: block; 
+    padding: 15px; 
+    margin-bottom: 10px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;/
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: #333; 
+    font-size: 18px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; 
+    color: #007bff; 
+}
+
+.list-group-item:active {
+    background-color: #e2e6ea;
+    color: #0056b3; 
+}
+
