@@ -10,5 +10,5 @@ Con respecto a nuestro público objetivo, el mismo serán aquellas personas que 
 
 ### Solución
 Para contribuir a mejorar este problema, consideramos oportuno crear un blog informativo en donde se puedan visualizar las diferentes oportunidades (especialmente de caracter gratuito) que existen, dividiendo el sitio por categorias en base a los distintos intereses de las personas. Buscamos crear un lugar donde este reunida toda la informacion sobre cursos, carreras y/o capacitaciones que pueden ayudar a las personas a continuar su formación y que, muchas veces, no es difundida lo suficiente. Nuestro objetivo es informar y motivar a los jovenes a continuar sus estudios
-### Javascript de nuestro proyecto
-Lo primero que vamos a realizar es agregar una alerta en el boton enviar del test de ingles y en el boton de la seccion contacto, tambien pensamos en incluir una alerta para que en el test de ingles sea completado y realizar la misma operacion para que todos los casilleros esten completos antes de "enviar"
+#### Javascript de nuestro proyecto
+En primer lugar, vamos a  agregar una alerta en el botón enviar del test de ingles y en el botón de la sección contacto, informando que se han enviado con éxito.  Luego, en la sección contacto, incluimos otra alerta si hay algun campo del formulario incompleto.
