@@ -119,6 +119,13 @@ h2{
     font-weight: lighter;
 }
 
+#boton {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #52ACE1;
+    font-weight: lighter;
+}
+
 .form-check{
     margin-left: 3%;
 }
