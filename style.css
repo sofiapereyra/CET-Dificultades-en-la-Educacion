@@ -155,8 +155,9 @@ h2{
 
 
 .list-group {
+    list-style-type: none;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-right: 3%;
 }
 
@@ -167,7 +168,7 @@ h2{
     margin-bottom: 10px;
     background-color: #ffffff; 
     border: 1px solid #ddd;/
-    border-radius: 5px; 
+    border-radius: 20px; 
     text-decoration: none; 
     color: #333; 
     font-size: 18px; 
