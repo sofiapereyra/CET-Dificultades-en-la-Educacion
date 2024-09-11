@@ -131,8 +131,8 @@ h6 {
 
 #carouselExample {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    height: 80%;
     background-size: cover;
     background-position: center;
 }
@@ -150,4 +150,13 @@ h6 {
 
 .carousel-item {
     position: relative;
+}
+
+#carrousel-provincias {
+    display: flex;
+    justify-content: center;
+}
+
+.img-carrousel-provincias {
+    height: 500px;
 }
